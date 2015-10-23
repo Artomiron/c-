@@ -34,8 +34,13 @@ namespace SimpleClassExample
             Moto secondMoto = new Moto(3);
             secondMoto.PopAWheely();
             Console.WriteLine("Rider name is {0}", secondMoto.name);
-            Console.ReadLine();
+            
 
+            Ship firstShip = new Ship("Ship", 160);
+            firstShip.printShip();
+            Console.ReadLine();
+            //firstShip.weight = 150;
+            //firstShip.name = "Chippo";
         }
     }
 }
