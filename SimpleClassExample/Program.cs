@@ -11,6 +11,7 @@ namespace SimpleClassExample
         static void Main(string[] args)
         {
             Console.WriteLine("***** Fun With Claa Type****");
+            Console.WriteLine("Just write it's");
             // розместить в памяти и конфигурировать обьект типа Car
             Car firstCar = new Car();
             firstCar.PrintState();
